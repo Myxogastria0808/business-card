@@ -5,33 +5,6 @@ import { IconContext } from 'react-icons';
 
 const BackCard = () => {
     return (
-        // <div className="card back-card">
-        //     <div className="back-content">
-        //         <div className="link">
-        //             <div className="qr-back"></div>
-        //             <a href="https://yukiosada.work/"> https://yukiosada.work/ </a>
-        //         </div>
-        //     </div>
-        //     <div className="back-bottom">
-        //         <div className="back-bottom-upper">
-        //             <div className="mountain"></div>
-        //         </div>
-        //         <div className="back-bottom-lower">
-        //             <IconContext.Provider value={{ color: 'black', size: '25px', className: 'back-icon' }}>
-        //                 <div className="link">
-        //                     <FaGithubSquare />
-        //                     <a href="https://twitter.com/yuki_osada0808/"> @yuki_osada0808 </a>
-        //                 </div>
-        //             </IconContext.Provider>
-        //             <IconContext.Provider value={{ color: 'black', size: '25px', className: 'back-icon' }}>
-        //                 <div className="link">
-        //                     <FaSquareXTwitter />
-        //                     <a href="https://github.com/Myxogastria0808"> Myxogastria0808 </a>
-        //                 </div>
-        //             </IconContext.Provider>
-        //         </div>
-        //     </div>
-        // </div>
         <div className="card back-card">
             <div className="content back-content">
                 <div className="stars s">
