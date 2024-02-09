@@ -23,13 +23,13 @@ const Turn = () => {
                             </IconContext.Provider>
                         </button>
                     </div>
-                    <div className="download download-front">
-                        <a href="/business-card-front.png" download="business-card-front.png">
+                    <a href="/business-card-front.png" download="business-card-front.png">
+                        <div className="download download-front">
                             <IconContext.Provider value={{ color: '#fff', size: '35px', className: 'loop-icon' }}>
                                 <IoCloudDownloadOutline />
                             </IconContext.Provider>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             ) : (
                 <div className="wrapper">
@@ -40,13 +40,13 @@ const Turn = () => {
                             </IconContext.Provider>
                         </button>
                     </div>
-                    <div className="download download-back">
-                        <a href="/business-card-back.png" download="business-card-back.png">
+                    <a href="/business-card-back.png" download="business-card-back.png">
+                        <div className="download download-back">
                             <IconContext.Provider value={{ color: '#000', size: '35px', className: 'loop-icon' }}>
                                 <IoCloudDownloadOutline />
                             </IconContext.Provider>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             )}
         </>
