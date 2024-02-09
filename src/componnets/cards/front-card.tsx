@@ -1,12 +1,12 @@
-import './front-card.css';
+import './card.css';
 
 const FrontCard = () => {
     return (
-        <div className="card">
-            <div className="content">
-                <div className="top-space"></div>
+        <div className="card front-card">
+            <div className="content front-content">
+                <div className="front-top-space"></div>
                 <div className="myface"></div>
-                <h1>Yuki Osada</h1>
+                <h1 className="h1">Yuki Osada</h1>
             </div>
             <div className="bottom">
                 <div className="bottom-upper">
@@ -28,10 +28,10 @@ const FrontCard = () => {
                         ></path>
                     </svg>
                 </div>
-                <div className="bottom-lower">
-                    <div className="qr"></div>
+                <div className="front-bottom-lower bottom-lower">
+                    <div className="qr-front"></div>
                     <div className="link">
-                        <a href="https://business-card.yukiosada.work"> https://business-card.yukiosada.work </a>
+                        <a href="https://business-card.yukiosada.work/"> https://business-card.yukiosada.work/ </a>
                     </div>
                 </div>
             </div>
