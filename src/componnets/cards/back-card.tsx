@@ -71,17 +71,20 @@ const BackCard = () => {
                 </div>
                 <div className="bottom-lower back-bottom-lower">
                     <IconContext.Provider value={{ color: '#fff', size: '25px', className: 'back-icon' }}>
-                        <div className="link">
+                        <div className="back-link">
                             <FaSquareXTwitter />
                             <a href="https://twitter.com/yuki_osada0808/"> @yuki_osada0808 </a>
                         </div>
                     </IconContext.Provider>
                     <IconContext.Provider value={{ color: '#fff', size: '25px', className: 'back-icon' }}>
-                        <div className="link">
+                        <div className="back-link">
                             <FaGithubSquare />
                             <a href="https://github.com/Myxogastria0808"> Myxogastria0808 </a>
                         </div>
                     </IconContext.Provider>
+                    <div className="university">
+                        <h3>Institution: University of Tsukuba</h3>
+                    </div>
                 </div>
             </div>
         </div>
