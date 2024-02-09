@@ -99,13 +99,13 @@ const BackCard = () => {
                 <div className="bottom-lower back-bottom-lower">
                     <IconContext.Provider value={{ color: '#fff', size: '25px', className: 'back-icon' }}>
                         <div className="link">
-                            <FaGithubSquare />
+                            <FaSquareXTwitter />
                             <a href="https://twitter.com/yuki_osada0808/"> @yuki_osada0808 </a>
                         </div>
                     </IconContext.Provider>
                     <IconContext.Provider value={{ color: '#fff', size: '25px', className: 'back-icon' }}>
                         <div className="link">
-                            <FaSquareXTwitter />
+                            <FaGithubSquare />
                             <a href="https://github.com/Myxogastria0808"> Myxogastria0808 </a>
                         </div>
                     </IconContext.Provider>
