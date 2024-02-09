@@ -12,6 +12,7 @@ a {
     font-size: 20px;
     color: #fff;
     font-family: 'Protest Guerrilla', sans-serif;
+    text-shadow: 0px 0px 3px #fff;
 }
 .link {
     text-align: center;
