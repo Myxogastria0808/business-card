@@ -132,6 +132,7 @@ a {
 .university h3 {
     margin: 0;
     padding: 0;
+    padding-right: 10px;
 }
 
 .stars p {
