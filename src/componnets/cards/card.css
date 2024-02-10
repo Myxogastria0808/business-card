@@ -113,7 +113,7 @@ a {
     margin-bottom: -6px;
 }
 .back-link {
-    width: 190px;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
     text-align: start;
@@ -127,7 +127,7 @@ a {
     color: #fff;
     margin-left: auto;
     margin-top: 60px;
-    width: 290px;
+    width: fit-content;
 }
 .university h3 {
     margin: 0;
