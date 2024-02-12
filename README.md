@@ -1,6 +1,6 @@
 # My Business Card!
 
-## サイトのURL
+### サイトのURL
 
 [https://business-card.yukiosada.work/](https://business-card.yukiosada.work/)
 
