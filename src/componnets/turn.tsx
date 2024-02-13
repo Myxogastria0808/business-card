@@ -17,13 +17,17 @@ const Turn = () => {
             {isFront ? (
                 <div className="wrapper">
                     <div className="button-wrapper">
-                        <button className="front-button" onClick={handleClick}>
+                        <button className="front-button" onClick={handleClick} aria-label="Turn Over Button">
                             <IconContext.Provider value={{ color: '#fff', size: '35px', className: 'loop-icon' }}>
                                 <ImLoop />
                             </IconContext.Provider>
                         </button>
                     </div>
-                    <a href="/business-card-front.png" download="business-card-front.png">
+                    <a
+                        href="/business-card-front.png"
+                        download="business-card-front.png"
+                        aria-label="Download Button For Business Cards"
+                    >
                         <div className="download download-front">
                             <IconContext.Provider value={{ color: '#fff', size: '35px', className: 'loop-icon' }}>
                                 <IoCloudDownloadOutline />
@@ -34,13 +38,17 @@ const Turn = () => {
             ) : (
                 <div className="wrapper">
                     <div className="button-wrapper">
-                        <button className="back-button" onClick={handleClick}>
+                        <button className="back-button" onClick={handleClick} aria-label="Turn Over Button">
                             <IconContext.Provider value={{ color: '#000', size: '35px', className: 'loop-icon' }}>
                                 <ImLoop />
                             </IconContext.Provider>
                         </button>
                     </div>
-                    <a href="/business-card-back.png" download="business-card-back.png">
+                    <a
+                        href="/business-card-back.png"
+                        download="business-card-back.png"
+                        aria-label="Download Button For Business Cards"
+                    >
                         <div className="download download-back">
                             <IconContext.Provider value={{ color: '#000', size: '35px', className: 'loop-icon' }}>
                                 <IoCloudDownloadOutline />
